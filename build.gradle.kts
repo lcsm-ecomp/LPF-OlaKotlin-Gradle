@@ -13,11 +13,12 @@ repositories { // Sources of dependencies. See 2️⃣
     mavenCentral() // Maven Central Repository. See 3️⃣
 }
 
-dependencies { // All the libraries you want to use. See 4️⃣
+dependencies { 
+   implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.9.0-RC")
+
 }
 
 kotlin { // Extension for easy setup
-    jvmToolchain(20) // Target version of generated JVM bytecode. See 7️⃣
 }
 
 application {
