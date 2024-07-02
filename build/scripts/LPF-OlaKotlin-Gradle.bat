@@ -68,7 +68,7 @@ goto fail
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\LPF-OlaKotlin-Gradle-0.1-BETA.jar;%APP_HOME%\lib\kotlin-stdlib-1.9.21.jar;%APP_HOME%\lib\annotations-13.0.jar
+set CLASSPATH=%APP_HOME%\lib\LPF-OlaKotlin-Gradle-0.1-BETA.jar;%APP_HOME%\lib\kotlinx-coroutines-reactive-1.9.0-RC.jar;%APP_HOME%\lib\kotlinx-coroutines-core-jvm-1.9.0-RC.jar;%APP_HOME%\lib\kotlinx-coroutines-jdk9-1.9.0-RC.jar;%APP_HOME%\lib\kotlin-stdlib-2.0.0.jar;%APP_HOME%\lib\annotations-23.0.0.jar;%APP_HOME%\lib\reactive-streams-1.0.3.jar
 
 
 @rem Execute LPF-OlaKotlin-Gradle

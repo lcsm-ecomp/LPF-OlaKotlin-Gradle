@@ -14,7 +14,7 @@ repositories { // Sources of dependencies. See 2️⃣
 }
 
 dependencies { 
-   implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.9.0-RC")
+   implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk9:1.9.0-RC")
 
 }
 
